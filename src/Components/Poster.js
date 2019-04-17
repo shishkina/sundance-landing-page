@@ -1,5 +1,4 @@
 import React from 'react';
-// import { Link, Router } from 'react-router-dom';
 
 export default (props) => {
   return (
@@ -8,6 +7,14 @@ export default (props) => {
       <img
         src={`${props.meta.amcn_field_show_branding.logo.full}`}
         alt='unspeakable show logo' />
+      <div className='bottom-hero'>
+        <h1 className='episode-title'>
+          NEW: EPISODES 3 AND 4
+        </h1>
+        <h4 className='episode-actions'>
+          <span> watch now </span>
+        </h4>
+      </div>
     </div>
 
   )

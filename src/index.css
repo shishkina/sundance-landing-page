@@ -6,6 +6,20 @@ body {
   font-family: BentonSans,Helvetica;
 }
 
+button {
+  display: flex;
+  background: 0 0;
+  border: none;
+  text-transform: uppercase;
+  color: #9ea7a9;
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+  color: #9ea7a9;
+}
+
 .nav__wrapper {
   background-color: black;
   background: #000;
@@ -64,19 +78,10 @@ body {
   display: flex;
   justify-content: space-evenly;
   right: 0;
-  padding-left: 20%;
+  padding-left: 10%;
   align-items: center;
-  width: 50%;
+  width: 80%;
   padding-top: .6rem;
-}
-
-button {
-  display: flex;
-  background: 0 0;
-  border: none;
-  text-transform: uppercase;
-  color: #9ea7a9;
-  font-weight: 700;
 }
 
 .content-list-top {
@@ -85,8 +90,11 @@ button {
   min-height: 50px;
 }
 
+.hamburger__icon {
+  max-width: 8%;
+}
 
-.nav-menu-right__item{
+.nav-menu-right__item {
   display: flex;
   justify-content: space-around;
   text-decoration: none;
@@ -95,4 +103,29 @@ button {
   font-size: 1rem;
   font-weight: 800;
   letter-spacing: .9px;
+}
+
+.bottom-hero {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  z-index: 4;
+  margin-bottom: 1.2rem;
+}
+
+.episode-title {
+  font-family: BentonSansExtraComp;
+  font-weight: 100;
+  letter-spacing: .9px;
+  text-transform: uppercase;
+  font-size: 2rem;
+  color: #fff;
+}
+
+.episode-actions {
+  color: #fff;
+  font-family: inherit;
+  font-weight: 500;
+  text-transform: uppercase;
 }
