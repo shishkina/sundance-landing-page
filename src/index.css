@@ -43,7 +43,7 @@ a {
 .episode__container {
   background-size: cover;
   background-position: center;
-  min-height: 600px;
+  min-height: 100vh;
   min-width: 100%;
   position: relative;
 }
